@@ -1,0 +1,30 @@
+# 🩺 Pneumonia Detection using CNN
+
+## 📌 Overview
+This project aims to classify chest X-ray images into:
+- Pneumonia
+- Normal
+
+## 🧠 Model Architecture
+- Conv2D (32 filters)
+- MaxPooling
+- Conv2D (64 filters)
+- MaxPooling
+- Conv2D (128 filters)
+- Flatten
+- Dense Layer
+- Output Layer (Sigmoid)
+
+## ⚙️ Technologies Used
+- Python
+- TensorFlow / Keras
+- NumPy
+
+## 📊 Results
+- Training Accuracy: ~90% (approx)
+- Validation Accuracy: ~85% (approx)
+
+## 🚀 Future Improvements
+- Data Augmentation
+- Transfer Learning (ResNet, VGG16)
+- Hyperparameter tuning
